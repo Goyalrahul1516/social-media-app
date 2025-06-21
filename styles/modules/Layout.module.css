@@ -1,0 +1,46 @@
+/* styles/modules/Layout.module.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* ...existing code... */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #eaeaea;
+  background: #fff;
+  margin-bottom: 24px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0070f3;
+  cursor: pointer;
+}
+
+.headerNav {
+  display: flex;
+  gap: 16px;
+}
+
+.navButton {
+  background: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  color: #0070f3;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.navButton:hover {
+  background: #eaeaea;
+}
+/* ...existing code... */
